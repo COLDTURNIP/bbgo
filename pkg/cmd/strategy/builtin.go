@@ -15,6 +15,7 @@ import (
 	_ "github.com/c9s/bbgo/pkg/strategy/fmaker"
 	_ "github.com/c9s/bbgo/pkg/strategy/funding"
 	_ "github.com/c9s/bbgo/pkg/strategy/grid"
+	_ "github.com/c9s/bbgo/pkg/strategy/kfzlema"
 	_ "github.com/c9s/bbgo/pkg/strategy/kline"
 	_ "github.com/c9s/bbgo/pkg/strategy/marketcap"
 	_ "github.com/c9s/bbgo/pkg/strategy/pivotshort"
