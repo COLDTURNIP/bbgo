@@ -60,7 +60,7 @@ type Strategy struct {
 
 	// TrendEMA is used for detecting the trend by a given EMA
 	// you can define interval and window
-	TrendEMA *bbgo.TrendEMA `json:"trendEMA"`
+	TrendEMA *bbgo.TrendKalmanFilter `json:"trendEMA"`
 
 	// Spread is the price spread from the middle price.
 	// For ask orders, the ask price is ((bestAsk + bestBid) / 2 * (1.0 + spread))
